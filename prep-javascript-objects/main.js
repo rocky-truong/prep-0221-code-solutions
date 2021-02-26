@@ -29,7 +29,7 @@ console.log('Car Information', myCar);
 
 myCar['owner'] = fullName;
 
-console.log('My name is', (fullName), 'and I drive a', (myCar.year), (myCar.make), (myCar.model) + '.');
+console.log('My name is' + ' ' + (fullName) + ' ' + 'and I drive a' + ' ' + (myCar.year) + ' ' + (myCar.make) + ' ' + (myCar.model) + '.');
 
 myCar['color'] = 'white';
 
