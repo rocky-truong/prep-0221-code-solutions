@@ -27,21 +27,10 @@ var myCar = {
 
 console.log('Car Information', myCar);
 
-myCar = {
-  owner: fullName,
-  make: myCar.make,
-  model: myCar.model,
-  year: myCar.year
-};
+myCar['owner'] = fullName;
 
 console.log('My name is', (fullName), 'and I drive a', (myCar.year), (myCar.make), (myCar.model) + '.');
 
-myCar = {
-  make: myCar.make,
-  model: myCar.model,
-  year: myCar.year,
-  owner: myCar.owner,
-  color: 'white'
-};
+myCar['color'] = 'white';
 
 console.log('My full car info:', myCar);
